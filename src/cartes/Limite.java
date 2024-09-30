@@ -2,9 +2,14 @@ package cartes;
 
 public abstract class Limite extends Carte {
 
-	public Limite(Type type) {
-		super(type);
-		// TODO Auto-generated constructor stub
-	}
+    protected int km;
+
+    public Limite(int km) {
+        this.km = km;
+    }
+
+    public int getKm() {
+        return km;
+    }
 
 }

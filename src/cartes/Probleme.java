@@ -2,9 +2,14 @@ package cartes;
 
 public class Probleme extends Carte {
 
-	public Probleme(Type type) {
-		super(type);
-		// TODO Auto-generated constructor stub
-	}
+	protected Type type;
+
+    public Probleme(Type type) {
+        this.type = type;
+    }
+
+    public Type getType() {
+        return type;
+    }
 
 }

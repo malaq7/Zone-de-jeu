@@ -6,5 +6,8 @@ public class Parade extends Bataille {
 		super(type);
 		// TODO Auto-generated constructor stub
 	}
-
+    @Override
+    public String toString() {
+        return type.getParadeD();  // Utilise la valeur de parade depuis l'énumération
+    }
 }

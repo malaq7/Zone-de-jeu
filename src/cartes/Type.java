@@ -1,17 +1,17 @@
 package cartes;
 
 public enum Type {
-	FEU("Feu rouge","Feu vert","Vehicule Prioritaire"),
-	ESSENCE("bidon d'essence" , "panne d'essence" ,null) ,
-	CREVAISON("crevaison" ,"Increvable" ,null) ,
-	ACCIDENT("accident" , null ,null)  ;
+	FEU("Feu Rouge", "Feu Vert", "Véhicule Prioritaire"),
+    ESSENCE("Panne d'essence", "Bidon d'essence", "Citerne"),
+    CREVAISON("Crevaison", "Roue de secours", "Increvable"),
+    ACCIDENT("Accident", "Réparation", "As du volant");
 	
-	private String attqueD ;
+	private String attaqueD ;
 	private String botteD ;
 	private String paradeD ;
 	
 	Type(String attaqueD, String botteD, String paradeD) {
-		this.attqueD = attaqueD;
+		this.attaqueD = attaqueD;
 		this.botteD = botteD;
 		this.paradeD = paradeD;
 	}
@@ -19,8 +19,8 @@ public enum Type {
 	/**
 	 * @return the attqueD
 	 */
-	public String getAttqueD() {
-		return attqueD;
+	public String getAttaqueD() {
+		return attaqueD;
 	}
 
 	/**

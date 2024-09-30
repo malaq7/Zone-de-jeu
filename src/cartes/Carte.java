@@ -1,6 +1,6 @@
 package cartes;
 
-public abstract class Carte extends Carte {
+public abstract class Carte {
 
 	public Carte() {
 		// TODO Auto-generated constructor stub
